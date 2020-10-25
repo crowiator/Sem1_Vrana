@@ -1,0 +1,69 @@
+.navbar-brand img{
+    height: 40px;
+    width: 40px;
+}
+.dropdown-item{
+    font-family: Cambria;
+    color:black;
+    font-size: large;
+}
+.dropdown-item img{
+    height:40px;
+    width:auto;
+}
+tbody{
+    color: black;
+}
+
+
+.col-mt-2{
+    padding: 0;
+}
+.card-deck{
+    padding-top: 15px;
+    background-color: azure;
+}
+.media img{
+    width: 45%;
+    height: auto;
+    padding:0;
+}
+h1, h2 {
+    font-family: Helvetica;
+    font-style:normal ;
+    font-weight: bold;
+    color: #f54242;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+}
+body {
+    background-color: snow;
+
+}
+.collapse navbar-collapse, .nazov{
+    color: black;
+    font-weight: bold;
+}
+
+.nazov, .data{
+
+    color: black;
+    font-family: Arial;
+    font-size: large;
+}
+
+.card-text img{
+    width:20%;
+}
+
+.card-body{
+    color:black;
+    background-color:snow;
+}
+
+.row {
+    padding-bottom: 12px;
+}
+
+

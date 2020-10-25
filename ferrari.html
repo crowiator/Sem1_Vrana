@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>F1</title>
+    <link rel="stylesheet" href="css/hlavny.css">
+</head>
+<body class="ferrari">
+<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand" href="#"><img src="image/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="latest.html">Latest <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="standings.html">Standings</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="drivers" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Drivers
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><img src="image/driver/hamilton.png" alt="">Lewis Hamilton</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/bottas.png" alt="">Valtteri Bottas</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/verstappen.png" alt="">Max Verstappen</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/albon.png" alt="">Alexander Albon</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/perez.png" alt="">Sergio Perez</a>
+                    <a class="dropdown-item" href="#">Lance Stroll</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/norris.png" alt="">Lando Norris</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/sainz.png" alt="">Carlos Sainz</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/ricciardo.png" alt="">Daniel Ricciardo</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/ocon.png" alt="">Esteban Ocon</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/leclerc.png" alt="">Charles Leclerc</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/vettel.png" alt="">Sebastian Vettel</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/gasly.png" alt="">Pierre Gasly</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/kvyat.png" alt="">Danil Kvyat</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/giovinazzi.png" alt="">Antonio
+                        Giovinazzi</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/raikkonen.png" alt="">Kimi Räikkönen</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/grosjean.png" alt="">Romain Grosjean</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/magnusen.png" alt="">Kevin Magnussen</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/latifi.png" alt="">Nicholas Latifi</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/russel.png" alt="">George Russell</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="teams" role="button" data-toggle="dropdown"
+                   aria-haspopup="true" aria-expanded="false">
+                    Teams
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#"><img src="image/teams/mercedes.png" alt="">Mercedes</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/redbull.png" alt="">Red Bull Racing</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/racingpoint.png" alt="">Racing Point</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/McLaren.png" alt="">McLaren</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/renault.png" alt="">Renault</a>
+                    <a class="dropdown-item" href="ferrari.html"><img src="image/teams/ferrari.png" alt="">Ferrari</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/AlphaTauri.png" alt="">AlphaTauri</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/alfaromeopng.png" alt="">Alfa Romeo
+                        Racing</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/hass.png" alt="">Haas F1 Team</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/wiliams.png" alt="">Williams</a>
+                </div>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+</nav>
+<!-- Obsah stranky-->
+
+
+<div class="container">
+
+    <div class="container">
+        <h1>Information</h1>
+        <div class="row mt-12">
+
+            <div class="col-sm ">
+                <h1> Ferrari</h1>
+                <table class="table table-borderless">
+
+                    <tbody>
+                    <tr>
+
+                        <td class="nazov">Full Team Name</td>
+                        <td class="data">Scuderia Ferrari Mission Winnow</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">Base</td>
+                        <td class="data">Maranello, Italy</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">Team Chief</td>
+                        <td class="data">Mattia Binotto</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">Technical Chief</td>
+                        <td class="data">Simone Resta</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">Chassis</td>
+                        <td class="data">SF1000</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">Power Unit</td>
+                        <td class="data">Ferrari</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">First Team Entry</td>
+                        <td class="data">1950</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">World Championships</td>
+                        <td class="data">16</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">Highest Race Finish</td>
+                        <td class="data">1 (x238)</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">Pole Positions</td>
+                        <td class="data">221</td>
+
+                    </tr>
+                    <tr>
+
+                        <td class="nazov">Fastest Laps</td>
+                        <td class="data">253</td>
+
+                    </tr>
+
+
+
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="col-sm ">
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="image/leclerc.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Charles Leclerc</h4>
+                        <p class="card-text">16
+                            <img src="image/prilbaLeclerc.png" class="card-img" alt="">
+                            <div>
+                        <table class="table table-borderless">
+
+                            <tbody>
+                            <tr>
+
+                                <td class="nazov">Country</td>
+                                <td class="data">Monaco</td>
+
+                            </tr>
+                            <tr>
+
+                                <td class="nazov">Podiums</td>
+                                <td class="data">12</td>
+
+                            </tr>
+                            <tr>
+
+                                <td class="nazov">Points</td>
+                                <td class="data">53</td>
+
+                            </tr>
+                            <tr>
+
+                                <td class="nazov">World Championships</td>
+                                <td class="data">-</td>
+
+                            </tr>
+                            <tr>
+
+                                <td class="nazov">Date of birth</td>
+                                <td class="data">16/10/1997</td>
+
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm text-justify ">
+                <div class="card" style="width:300px">
+                    <img class="card-img-top" src="image/vettel.jpg" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">Sebastian Vettel</h4>
+                        <p class="card-text">5
+                            <img src="image/prilbaVettel.png"  class="card-img" alt="">
+                        <div>
+
+                            <table class="table table-borderless">
+
+                                <tbody>
+                                <tr>
+
+                                    <td class="nazov">Country</td>
+                                    <td class="data">Germany</td>
+
+                                </tr>
+                                <tr>
+
+                                    <td class="nazov">Podiums</td>
+                                    <td class="data">120</td>
+
+                                </tr>
+                                <tr>
+
+                                    <td class="nazov">Points</td>
+                                    <td class="data">3002</td>
+
+                                </tr>
+                                <tr>
+
+                                    <td class="nazov">World Championships</td>
+                                    <td class="data">4</td>
+
+                                </tr>
+                                <tr>
+
+                                    <td class="nazov">Date of birth</td>
+                                    <td class="data">03/07/1987</td>
+
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<div class="container">
+        <div class="col-12 text-justify">
+            <h1>Something more</h1>
+            <p>
+            Scuderia Ferrari S.p.A. (Italian: [skudeˈriːa ferˈraːri]) is the racing division of luxury Italian auto manufacturer Ferrari and the racing team that competes in Formula One racing. The team is also nicknamed "The Prancing Horse", with reference to their logo. It is the oldest surviving and most successful Formula One team, having competed in every world championship since the 1950 Formula One season.[7] The team was founded by Enzo Ferrari, initially to race cars produced by Alfa Romeo, though by 1947 Ferrari had begun building its own cars. Among its important achievements outside Formula One are winning the World Sportscar Championship, 24 Hours of Le Mans, 24 Hours of Spa, 24 Hours of Daytona, 12 Hours of Sebring, Bathurst 12 Hour, races for Grand tourer cars and racing on road courses of the Targa Florio, the Mille Miglia and the Carrera Panamericana. The team is also known for its passionate support base known as the tifosi. The Italian Grand Prix at Monza is regarded as the team's home race.
+
+            As a constructor, Ferrari has a record 16 Constructors' Championships, the last of which was won in 2008. Alberto Ascari, Juan Manuel Fangio, Mike Hawthorn, Phil Hill, John Surtees, Niki Lauda, Jody Scheckter, Michael Schumacher and Kimi Räikkönen have won a record 15 Drivers' Championships for the team.[8] Since Räikkönen's title in 2007 the team narrowly lost out on the 2008 drivers' title with Felipe Massa and the 2010 and 2012 drivers' titles with Fernando Alonso. The 2020 Tuscan Grand Prix marked Ferrari's 1000th Grand Prix in Formula One.
+
+            Michael Schumacher is the team's most successful driver. Joining the team in 1996 and departing in 2006, he won five consecutive drivers' titles and 72 Grands Prix for the team. His titles came consecutively between 2000 and 2004, and the team won consecutive constructors' titles between 1999 and 2004; this was the team's most successful period. The team's 2020 drivers are Sebastian Vettel and Charles Leclerc, with Carlos Sainz Jr. due to replace Vettel for the 2021 season.
+            </p>
+        </div>
+</div>
+<!--Carousel Wrapper-->
+<div class="container">
+    <div class="row mt-4">
+        <div id="carousel-example-2" class="carousel slide carousel-fade z-depth-1-half" data-ride="carousel">
+            <!--Indicators-->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-2" data-slide-to="1"></li>
+                <li data-target="#carousel-example-2" data-slide-to="2"></li>
+            </ol>
+            <!--/.Indicators-->
+            <!--Slides-->
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="view">
+                        <img class="d-block w-100" src="image/ferrari/prilba.jpg" alt="First slide">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">This is the first title</h3>
+                        <p>First text</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="image/ferrari/formulaVet.jpg" alt="Second slide">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Monopost Sebastian Vettel</h3>
+
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <!--Mask color-->
+                    <div class="view">
+                        <img class="d-block w-100" src="image/ferrari/monopost.jpg" alt="Third slide">
+                        <div class="mask rgba-black-light"></div>
+                    </div>
+                    <div class="carousel-caption">
+                        <h3 class="h3-responsive">Monopost Charles Leclerc</h3>
+
+                    </div>
+                </div>
+            </div>
+            <!--/.Slides-->
+            <!--Controls-->
+            <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!--/.Controls-->
+        </div>
+        <!--/.Carousel Wrapper-->
+    </div>
+
+
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+</html>

@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>F1</title>
+    <link rel="stylesheet" href="css/hlavny.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand" href="#"><img src="image/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="latest.html">Latest <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="schedule.html">Schedule</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="standings.html">Standings</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="drivers" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Drivers
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" ><img src="image/driver/hamilton.png" alt="">Lewis Hamilton</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/bottas.png" alt="">Valtteri Bottas</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/verstappen.png" alt="">Max Verstappen</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/albon.png" alt="">Alexander Albon</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/perez.png" alt="">Sergio Perez</a>
+                    <a class="dropdown-item" href="#">Lance Stroll</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/norris.png" alt="">Lando Norris</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/sainz.png" alt="">Carlos Sainz</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/ricciardo.png" alt="">Daniel Ricciardo</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/ocon.png" alt="">Esteban Ocon</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/leclerc.png" alt="">Charles Leclerc</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/vettel.png" alt="">Sebastian Vettel</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/gasly.png" alt="">Pierre Gasly</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/kvyat.png" alt="">Danil Kvyat</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/giovinazzi.png" alt="">Antonio Giovinazzi</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/raikkonen.png" alt="">Kimi Räikkönen</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/grosjean.png" alt="">Romain Grosjean</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/magnusen.png" alt="">Kevin Magnussen</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/latifi.png" alt="">Nicholas Latifi</a>
+                    <a class="dropdown-item" href="#"><img src="image/driver/russel.png" alt="">George Russell</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="teams" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Teams
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#" ><img src="image/teams/mercedes.png" alt="">Mercedes</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/redbull.png" alt="">Red Bull Racing</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/racingpoint.png" alt="">Racing Point</a>
+                    <a class="dropdown-item" href="#" ><img src="image/teams/McLaren.png" alt="">McLaren</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/renault.png" alt="">Renault</a>
+                    <a class="dropdown-item" href="ferrari.html"><img src="image/teams/ferrari.png" alt="">Ferrari</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/AlphaTauri.png" alt="">AlphaTauri</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/alfaromeopng.png" alt="">Alfa Romeo Racing</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/hass.png" alt="">Haas F1 Team</a>
+                    <a class="dropdown-item" href="#"><img src="image/teams/wiliams.png" alt="">Williams</a>
+                </div>
+            </li>
+
+
+        </ul>
+
+    </div>
+
+    <!--tabulka-->
+</nav>
+<h1>Driver Standings</h1>
+<table class="table table-borderless" >
+    <thead>
+    <tr>
+        <th scope="col">POS</th>
+        <th scope="col">DRIVER</th>
+        <th scope="col">TEAM</th>
+        <th scope="col">NATIONALITY</th>
+        <th scope="col">PTS</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row" >1</th>
+        <td>Lewis Hamilton</td>
+        <td>Mercedes</td>
+        <td>GBR</td>
+        <td>230</td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Valtteri Bottas</td>
+        <td>Mercedes</td>
+        <td>FIN</td>
+        <td>161</td>
+    </tr>
+    <tr >
+        <th scope="row">3</th>
+        <td>Max Verstappen</td>
+        <td>RED BULL RACING HONDA</td>
+        <td>NED</td>
+        <td>147</td>
+    </tr>
+    <tr>
+        <th scope="row">4</th>
+        <td>Daniel Ricciardo</td>
+        <td>RENAULT</td>
+        <td>AUS</td>
+        <td>78</td>
+    </tr>
+    <tr>
+        <th scope="row" >5</th>
+        <td>Sergio Perez</td>
+        <td>RACING POINT BWT MERCEDES</td>
+        <td>MEX</td>
+        <td>68</td>
+    </tr>
+    <tr>
+        <th scope="row">6</th>
+        <td>Lando Norris</td>
+        <td>MCLAREN RENAULT</td>
+        <td>GBR</td>
+        <td>65</td>
+    </tr>
+    <tr>
+        <th scope="row">7</th>
+        <td>Alexander Albon</td>
+        <td>RED BULL RACING HONDA</td>
+        <td>THA</td>
+        <td>64</td>
+    </tr>
+    <tr>
+        <th scope="row">8</th>
+        <td>Charles Leclerc</td>
+        <td>FERRARI</td>
+        <td>MON</td>
+        <td>63</td>
+    </tr>
+    <tr>
+        <th scope="row" >9</th>
+        <td>Lance Stroll</td>
+        <td>RACING POINT BWT MERCEDES</td>
+        <td>CAN</td>
+        <td>57</td>
+    </tr>
+    <tr>
+        <th scope="row">10</th>
+        <td>Pierre Gasly</td>
+        <td>ALPHATAURI HONDA</td>
+        <td>FRA</td>
+        <td>53</td>
+    </tr>
+    <tr>
+        <th scope="row">11</th>
+        <td>Carlos Sainz</td>
+        <td>MCLAREN RENAULT</td>
+        <td>ESP</td>
+        <td>51</td>
+    </tr>
+    <tr>
+        <th scope="row">12</th>
+        <td>Esteban Ocon</td>
+        <td>RENAULT</td>
+        <td>FRA</td>
+        <td>36</td>
+    </tr>
+    <tr>
+        <th scope="row">13</th>
+        <td>Sebastian Vettel</td>
+        <td>FERRARI</td>
+        <td>GER</td>
+        <td>17</td>
+    </tr>
+    <tr>
+        <th scope="row">14</th>
+        <td>Daniil Kvyat</td>
+        <td>ALPHATAURI HONDA</td>
+        <td>RUS</td>
+        <td>14</td>
+    </tr>
+    <tr>
+        <th scope="row" >15</th>
+        <td>Nico Hulkenberg</td>
+        <td>RACING POINT BWT MERCEDES</td>
+        <td>GER</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <th scope="row">16</th>
+        <td>Antonio Giovinazzi</td>
+        <td>ALFA ROMEO RACING FERRARI</td>
+        <td>ITA</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <th scope="row">17</th>
+        <td>Kimi Räikkönen</td>
+        <td>ALFA ROMEO RACING FERRARI</td>
+        <td>FIN</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <th scope="row">18</th>
+        <td>Romain Grosjean</td>
+        <td>HAAS FERRARI</td>
+        <td>FRA</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <th scope="row">19</th>
+        <td>Kevin Magnussen</td>
+        <td>HAAS FERRARI</td>
+        <td>DEN</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <th scope="row">20</th>
+        <td>Nicholas Latifi</td>
+        <td>WILLIAMS MERCEDES</td>
+        <td>CAN</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <th scope="row">20</th>
+        <td>Nicholas Latifi</td>
+        <td>WILLIAMS MERCEDES</td>
+        <td>GBR</td>
+        <td>0</td>
+    </tr>
+
+
+    </tbody>
+</table>
+<h1>Constructor Standings</h1>
+<table class="table table-borderless" >
+<thead>
+<tr>
+    <th scope="col">POS</th>
+    <th scope="col">TEAM</th>
+    <th scope="col">PTS</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+    <th scope="row" >1</th>
+    <td>Mercedes</td>
+    <td>391</td>
+</tr>
+<tr>
+    <th scope="row">2</th>
+    <td>RED BULL RACING HONDA</td>
+    <td>211</td>
+</tr>
+<tr >
+    <th scope="row">3</th>
+    <td>RACING POINT BWT MERCEDES</td>
+    <td>120</td>
+</tr>
+<tr>
+    <th scope="row">4</th>
+    <td>MCLAREN RENAULT</td>
+    <td>116</td>
+</tr>
+<tr>
+    <th scope="row" >5</th>
+    <td>RENAULT</td>
+    <td>114</td>
+</tr>
+<tr>
+    <th scope="row">6</th>
+    <td>FERRARI</td>
+    <td>80</td>
+</tr>
+<tr>
+    <th scope="row">7</th>
+    <td>ALPHATAURI HONDA</td>
+    <td>67</td>
+</tr>
+<tr>
+    <th scope="row">8</th>
+    <td>ALFA ROMEO RACING FERRARI</td>
+    <td>5</td>
+</tr>
+<tr>
+    <th scope="row" >9</th>
+    <td>HAAS FERRARI</td>
+    <td>3</td>
+</tr>
+<tr>
+    <th scope="row">10</th>
+    <td>WILLIAMS MERCEDES</td>
+    <td>0</td>
+</tr>
+</tbody>
+</table>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
