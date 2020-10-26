@@ -3,7 +3,7 @@
     width: 40px;
 }
 .dropdown-item{
-    font-family: Cambria;
+    font-family: Cambria, serif;
     color:black;
     font-size: large;
 }
@@ -29,7 +29,7 @@ tbody{
     padding:0;
 }
 h1, h2 {
-    font-family: Helvetica;
+    font-family: Helvetica, serif;
     font-style:normal ;
     font-weight: bold;
     color: #f54242;
@@ -41,7 +41,7 @@ body {
     background-color: snow;
 
 }
-.collapse navbar-collapse, .nazov{
+.collapse, .nazov{
     color: black;
     font-weight: bold;
 }
@@ -49,7 +49,7 @@ body {
 .nazov, .data{
 
     color: black;
-    font-family: Arial;
+    font-family: Arial, serif;
     font-size: large;
 }
 
